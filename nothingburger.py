@@ -137,7 +137,6 @@ def main():
 				downloadFile(file)
 	else:
 		image_links = iterThroughLinks(getUrlList(getMainFolders(BASE_URL)))
-		print(image_links)
 		createFolders()
 		for image_link in image_links:
 			downloadFile(image_link)
